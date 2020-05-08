@@ -1,0 +1,29 @@
+.superheroesSlider {
+    width: 384px;
+    height: 128px;
+    border: 5px solid black;
+    margin: 150px auto;
+    overflow: hidden;
+}
+
+.ruleClass {
+    width: 1408px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+img {
+    width: 128px;
+    height: 128px;
+}
+
+.ruleClass img {
+    float: left;
+}
+
+.ruleClass::after {
+    content: "";
+    display: block;
+    clear: both;
+}
